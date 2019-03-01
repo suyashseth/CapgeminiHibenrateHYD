@@ -12,10 +12,10 @@ public static void main(String[] args) {
 	manager.getTransaction().begin();
 	
 	StudentTable student = new StudentTable();
-    student.setSuserid(101);
-    student.setSname("Dingi");
+    student.setSuserid(105);
+    student.setSname("sharmaji");
     student.setSpass("qwert");
-    student.setSbacklogs(0);
+    student.setSbacklogs(5);
     
     manager.persist(student);
     manager.getTransaction().commit();
